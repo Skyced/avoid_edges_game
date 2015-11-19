@@ -53,11 +53,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
                         // 3
                         if data!.acceleration.x < 0 {
-                            self.destX = currentX + CGFloat(data!.acceleration.x * 500) + CGFloat(arc4random_uniform(500))
+                            self.destX = currentX + CGFloat(data!.acceleration.x * 500) + CGFloat(arc4random_uniform(500)) - CGFloat(arc4random_uniform(500))
                         }
         
                         else if data!.acceleration.x > 0 {
-                            self.destX = currentX + CGFloat(data!.acceleration.x * 500) + CGFloat(arc4random_uniform(500))
+                            self.destX = currentX + CGFloat(data!.acceleration.x * 500) + CGFloat(arc4random_uniform(1000)) - CGFloat(arc4random_uniform(500))
                         }
                         self.destY = currentY + CGFloat(data!.acceleration.y * 500)
                         self.destY = currentY + CGFloat(data!.acceleration.y * 500)

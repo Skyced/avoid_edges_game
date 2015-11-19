@@ -16,6 +16,8 @@
 		1CD53B761BFD58CC006C8C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD53B741BFD58CC006C8C2F /* LaunchScreen.storyboard */; };
 		1CD53B811BFD58CC006C8C2F /* MotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD53B801BFD58CC006C8C2F /* MotionTests.swift */; };
 		1CD53B8C1BFD58CC006C8C2F /* MotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD53B8B1BFD58CC006C8C2F /* MotionUITests.swift */; };
+		1CD53B9A1BFD58D8006C8C2F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD53B991BFD58D8006C8C2F /* CoreMotion.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1CD53B9C1BFD5D9E006C8C2F /* Airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD53B9B1BFD5D9E006C8C2F /* Airplane.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1CD53B871BFD58CC006C8C2F /* MotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD53B8B1BFD58CC006C8C2F /* MotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionUITests.swift; sourceTree = "<group>"; };
 		1CD53B8D1BFD58CC006C8C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD53B991BFD58D8006C8C2F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1CD53B9B1BFD5D9E006C8C2F /* Airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Airplane.png; path = ../../Airplane.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD53B9A1BFD58D8006C8C2F /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				1CD53B671BFD58CC006C8C2F /* AppDelegate.swift */,
+				1CD53B9B1BFD5D9E006C8C2F /* Airplane.png */,
 				1CD53B691BFD58CC006C8C2F /* GameScene.sks */,
 				1CD53B6B1BFD58CC006C8C2F /* GameScene.swift */,
 				1CD53B6D1BFD58CC006C8C2F /* GameViewController.swift */,
 				1CD53B6F1BFD58CC006C8C2F /* Main.storyboard */,
 				1CD53B721BFD58CC006C8C2F /* Assets.xcassets */,
 				1CD53B741BFD58CC006C8C2F /* LaunchScreen.storyboard */,
+				1CD53B991BFD58D8006C8C2F /* CoreMotion.framework */,
 				1CD53B771BFD58CC006C8C2F /* Info.plist */,
 			);
 			path = Motion;
@@ -242,6 +249,7 @@
 				1CD53B761BFD58CC006C8C2F /* LaunchScreen.storyboard in Resources */,
 				1CD53B731BFD58CC006C8C2F /* Assets.xcassets in Resources */,
 				1CD53B711BFD58CC006C8C2F /* Main.storyboard in Resources */,
+				1CD53B9C1BFD5D9E006C8C2F /* Airplane.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

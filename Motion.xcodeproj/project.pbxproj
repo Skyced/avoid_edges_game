@@ -18,6 +18,9 @@
 		1CD53B8C1BFD58CC006C8C2F /* MotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD53B8B1BFD58CC006C8C2F /* MotionUITests.swift */; };
 		1CD53B9A1BFD58D8006C8C2F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD53B991BFD58D8006C8C2F /* CoreMotion.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		1CD53B9C1BFD5D9E006C8C2F /* Airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD53B9B1BFD5D9E006C8C2F /* Airplane.png */; };
+		1CD53B9E1BFE60FC006C8C2F /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1CD53B9D1BFE60FB006C8C2F /* GameOverScene.sks */; };
+		1CD53BA01BFE6129006C8C2F /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD53B9F1BFE6129006C8C2F /* bg.png */; };
+		1CD53BA21BFE6227006C8C2F /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD53BA11BFE6227006C8C2F /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		1CD53B8D1BFD58CC006C8C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CD53B991BFD58D8006C8C2F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		1CD53B9B1BFD5D9E006C8C2F /* Airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Airplane.png; path = ../../Airplane.png; sourceTree = "<group>"; };
+		1CD53B9D1BFE60FB006C8C2F /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		1CD53B9F1BFE6129006C8C2F /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../../Downloads/Resources/bg.png; sourceTree = "<group>"; };
+		1CD53BA11BFE6227006C8C2F /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +113,12 @@
 			isa = PBXGroup;
 			children = (
 				1CD53B671BFD58CC006C8C2F /* AppDelegate.swift */,
+				1CD53B9F1BFE6129006C8C2F /* bg.png */,
 				1CD53B9B1BFD5D9E006C8C2F /* Airplane.png */,
 				1CD53B691BFD58CC006C8C2F /* GameScene.sks */,
 				1CD53B6B1BFD58CC006C8C2F /* GameScene.swift */,
+				1CD53B9D1BFE60FB006C8C2F /* GameOverScene.sks */,
+				1CD53BA11BFE6227006C8C2F /* GameOverScene.swift */,
 				1CD53B6D1BFD58CC006C8C2F /* GameViewController.swift */,
 				1CD53B6F1BFD58CC006C8C2F /* Main.storyboard */,
 				1CD53B721BFD58CC006C8C2F /* Assets.xcassets */,
@@ -249,6 +258,8 @@
 				1CD53B761BFD58CC006C8C2F /* LaunchScreen.storyboard in Resources */,
 				1CD53B731BFD58CC006C8C2F /* Assets.xcassets in Resources */,
 				1CD53B711BFD58CC006C8C2F /* Main.storyboard in Resources */,
+				1CD53BA01BFE6129006C8C2F /* bg.png in Resources */,
+				1CD53B9E1BFE60FC006C8C2F /* GameOverScene.sks in Resources */,
 				1CD53B9C1BFD5D9E006C8C2F /* Airplane.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +287,7 @@
 			files = (
 				1CD53B6C1BFD58CC006C8C2F /* GameScene.swift in Sources */,
 				1CD53B6E1BFD58CC006C8C2F /* GameViewController.swift in Sources */,
+				1CD53BA21BFE6227006C8C2F /* GameOverScene.swift in Sources */,
 				1CD53B681BFD58CC006C8C2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
